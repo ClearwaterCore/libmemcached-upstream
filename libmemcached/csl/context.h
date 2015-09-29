@@ -37,6 +37,9 @@
 
 #pragma once
 
+class Context;
+typedef void* yyscan_t;
+
 #include <libmemcached/csl/common.h>
 #include <libmemcached/csl/parser.h>
 
